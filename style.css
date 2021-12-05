@@ -1,0 +1,52 @@
+body{
+    background-image: url('./download.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Lora;
+}
+.container{
+    text-align: center;
+    margin-top: 100px;
+    color: yellow;
+}
+
+.calculator{
+    display: inline-block;
+    box-shadow: 10px rgb(0, 0, 0);
+    background-color: black;
+    border-radius: 8px;
+}
+
+table{
+    margin: auto;
+}
+
+input{
+    font-size: 40px;
+    padding-bottom: 25px;
+    outline: none;
+    border: none;
+    width: 93%;
+    border-bottom: 2px solid yellow;
+    background-color: black;
+    color: yellow;
+    text-align: right;
+}
+
+button{
+    font-size: 40px;
+    width: 118.5px;
+    height: 100px;
+    border: none;
+    color: yellow;
+    background-color: black;
+}
+
+button:hover{
+    border: 1px solid yellow;
+    border-radius: 7px;
+}
+
+button:active{
+    transform: scale(0.9);
+}
